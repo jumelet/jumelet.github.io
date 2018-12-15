@@ -1,0 +1,359 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+body {
+    background-image: url("home_bg.jpg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.25;
+    font-weight: bold;
+} 
+
+.main {
+    width: 700px;
+    height: 90px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+    
+    text-align: center;
+    vertical-align:center;
+    background: rgba(10, 30, 63, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main:hover {
+    background: rgba(255,255,255,0.8);
+    color: #0A1E3F;
+}
+</style>
+</head>
+<body>
+<a href="narp.html">
+<div class="main">
+<h1>Are you a true <b>LONGWOOD LANCER</b>?&nbsp;&nbsp;></h1>
+</div>
+</a>
+</body>
+</html>
+||||||| merged common ancestors
+=======
+<!DOCTYPE html>
+
+<html lang="nl">
+<head>
+<title>TreCKI 14|15</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Website voor de studiereis van USCKI Incognito">
+<meta name="keywords" content="TreCKI,Studiereis,USCKI,Incognito, Praag">
+<meta name="author" content="Jaap Jumelet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="images/favicon.png">
+
+<noscript>
+<meta HTTP-EQUIV="REFRESH" content="0; url=https://studiereis.uscki.nl/nojs.html"> 
+</noscript>
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/hiders.js"></script>
+<script src="scripts/panel_init.js"></script>  
+
+<script>
+ $(window).load(function() {  
+    $("#hideAll").fadeTo(1500,0.0); 
+    $("#hideAll").hide(1);
+}) //Loading screen at start.
+</script> 
+
+</head>
+
+<!--
+
+:::       :::  ::::::::  :::::::::: :::    ::: :::    :::      ::::::::::: :::::::::  :::::::::: ::::::::  :::    ::: ::::::::::: ::: 
+:+:       :+: :+:    :+: :+:        :+:    :+: :+:    :+:          :+:     :+:    :+: :+:       :+:    :+: :+:   :+:      :+:     :+: 
++:+       +:+ +:+    +:+ +:+        +:+    +:+ +:+    +:+          +:+     +:+    +:+ +:+       +:+        +:+  +:+       +:+     +:+ 
++#+  +:+  +#+ +#+    +:+ +#++:++#   +#++:++#++ +#++:++#++          +#+     +#++:++#:  +#++:++#  +#+        +#++:++        +#+     +#+ 
++#+ +#+#+ +#+ +#+    +#+ +#+        +#+    +#+ +#+    +#+          +#+     +#+    +#+ +#+       +#+        +#+  +#+       +#+     +#+ 
+ #+#+# #+#+#  #+#    #+# #+#        #+#    #+# #+#    #+#          #+#     #+#    #+# #+#       #+#    #+# #+#   #+#      #+#         
+  ###   ###    ########  ########## ###    ### ###    ###          ###     ###    ### ########## ########  ###    ### ########### ### 
+  
+  
+Wat leuk dat je de source code van de TreCKI site checkt! 
+    -Jaap           
+-->
+
+<body>
+
+<div id="hideAll">
+<span id="loading">Loading...</span>
+</div>
+
+<div class="hideButton" id="hideButta" style="font-style: italic; font-size: 8px;">
+	<input type="image" src="images/cross.png" id="hide" alt="hide" style="height:20px" />
+	<input type="image" src="images/plus.png" id="show" alt="show" style="height:20px" />
+	
+</div>
+
+<!-- .grids and .main are used in hiders.js-->
+<div class="grids">
+
+<!-- div's for centering grid-->
+<div class="outer">
+<div class="middle">
+<div class="inner">
+
+<div class="main">
+
+<div class="row">
+
+<div class="large-4 columns">
+	<div class="panel draggable ui-widget-content" id="panel1" onmousedown="editZindex(id)">
+		<h5><b>TreCKI 14|15</b></h5>
+		<p><i>Welkom op de site van de studiereis van 2015!</i></p>
+	</div>
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="large-6 columns">
+	<div class="panel draggable ui-widget-content" id="panel2" onmousedown="editZindex(id)">
+		<h5>Wanneer?</h5>
+		<p>De studiereis zal plaatsvinden van 9 april t/m 19 april, in de onderwijsvrije week tussen blok 3 en 4.</p>
+	</div>
+</div>
+
+<div class="large-2 columns" >
+	<div class="panel draggable ui-widget-content" id="panel3" onmousedown="editZindex(id)">
+		<img src="images/ckilogo.png" alt="CKI-Logo" id="ckilogo">
+	</div>
+</div>
+
+<a href="sprekers.html">
+<div class="large-4 columns">
+	<div class="panel draggable ui-widget-content" id="panel4" onmousedown="editZindex(id)">
+		<h5>Sprekers</h5>
+		<p>Klik hier om te zien van welke sprekers we dit jaar mogen gaan genieten!</p>
+	</div>
+</div>
+</a>
+
+</div>
+
+<div class="row">
+
+<div class="large-5 columns">
+	<div class="panel draggable ui-widget-content imagePanel" id="panel5" onmousedown="editZindex(id)" style="height:185px">
+        <h5>Sponsors</h5>
+		<a href="http://www.kaustikeurope.com/" target="_blank"><img src="images/sponsors/kaustik.png" alt="Kaustik bv" id="kaustik"></a>
+	</div>
+</div>
+
+<div class="large-4 columns">
+	<div class="panel draggable ui-widget-content imagePanel" id="panel6" onmousedown="editZindex(id)" style="height:185px">
+		<h5>&nbsp;</h5>
+        <a href="http://www.newcraftgroup.com/" target="_blank"><img src="images/sponsors/newcraft.png" alt="Newcraft Group" id="newcraft"></a>
+	</div>
+</div>
+
+<div class="large-3 columns">
+	<div class="panel draggable ui-widget-content" id="panel7" onmousedown="editZindex(id)" style="height:185px">
+		  <a href="images/commissiefototje.png"><img src="images/commissiefototje.png" alt="Praag!" id="praag" style="width:100%; height:153px"></a>
+	</div>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="large-6 columns">
+	<div class="panel draggable ui-widget-content" id="panel8" onmousedown="editZindex(id)">
+		<h5>Reisinfo</h5>
+		<p>We zullen naar Praag vertrekken per bus! Deze vertrekt donderdag 9 april 's avonds vanaf 
+           <a href="https://www.google.nl/maps/place/Moreelsepark,+3511+Utrecht/@52.0881601,5.1144898,17z/data=!3m1!4b1!4m2!3m1!1s0x47c66f5c65ac295d:0x534d1d60aae2f52e" target="blank">Moreelsepark</a> bij Utrecht CS. 
+           We verzamelen daar om <b>21:00</b>, wees op tijd!<br>
+           De bus doet er ongeveer 11 uur over. Terug vertrekken we zondagmorgen en komen we 's avonds aan. </p>
+	</div>
+</div>
+
+<div class="large-3 columns" >
+	<div class="panel draggable ui-widget-content" id="panel9" style="cursor: pointer; " onmousedown="editZindex(id)">
+		<h5>Deelnemers</h5>
+		<p style="text-align:center;"><em>Klik hier voor de deelnemerslijst.<br>
+        <br>Inschrijving is reeds gesloten!</em></p> <br>
+	</div>
+</div>
+
+<div class="large-3 columns">
+	<div class="panel draggable ui-widget-content" id="panel10"  onmousedown="editZindex(id)">
+		<h5>Commissie</h5>
+		De TreCKI bestaat dit jaar uit: 
+                
+  		<ul style="position:relative;top:10px;list-style-type: none; text-align:left; left:25px;">
+				<li><b>Jaap</b> Jumelet</li>	
+				<li><b>Nina</b> Krijger</li>
+				<li><b>Mayon</b> Bongers</li>
+                <li><b>Aafke</b> van Welbergen</li>
+				<li><b>Lotta</b> Meijerink</li>
+				<li><b>Mark</b> Berger</li>			
+			</ul>
+	</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="deelnemers"> 
+ 
+<div class="row">
+
+<div class="large-2 columns">
+  <div class="draggable ui-widget-content">
+	<div class="panel" id="terug" onmousedown="editZindex(id)" style="text-align: center; cursor: pointer;">
+		<h5>Terug</h5>
+	</div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+<div class="large-3 columns">
+  <div class="draggable ui-widget-content">
+	<div class="panel" id="panel11" onmousedown="editZindex(id)">
+		<h5><b>Deelnemers</b></h5>
+		<p>Dit is de definitieve deelnemerslijst voor de studiereis dit jaar! Gelukkig is loten niet nodig geweest.</p>
+	</div>
+  </div>
+</div>
+
+<div class="large-3 columns">
+  <div class="draggable ui-widget-content">
+	<div class="panel" id="panel12" onmousedown="editZindex(id)">
+		<h5 style="text-align:right">Alle</h5>
+		<p>
+        Jaap Jumelet<br>
+        Nina Krijger<br>
+        Mayon Bongers<br>
+        Aafke van Welbergen<br>
+        Lotta Meijerink<br>
+        Mark Berger<br>
+		Jop Brandenburg<br>
+		Pim Hopmans<br>
+		Lilian De Jong<br>
+		Susy Mayer<br>
+		Tjeu Hendriks<br>
+		Simone van Bruggen<br>
+		Esmee Stouten<br>
+		Nike Lambooy<br>
+		Tim van Vliet<br>
+		Kambiz Sekandar<br>
+		Richard Oosterlaken<br>
+		Celine de Jong<br>
+        Thomas van Gemert<br>
+		</p>
+	</div>
+  </div>
+</div>
+
+<div class="large-3 columns">
+  <div class="draggable ui-widget-content">
+	<div class="panel" id="panel13" onmousedown="editZindex(id)">
+		<h5>deelnemers</h5>
+		<p style="text-align:right">
+        Ginny Meijer<br>
+   		Kevin Hardeman<br>
+        Jerome Mutgeert<br>
+		Jan van Casteren<br>
+		Tobias Cadee<br>
+        Niels Rustenburg<br>
+        Rick Sen<br>
+        Tariq Mouhtadi<br>
+        Naomi Prins<br>
+        Florentijn Knol<br>
+        Loek Haanappel<br>
+        Isabelle Majoor<br>
+        Niels van Houten<br>
+        Suzanne Indenkleef<br>
+        Thomas Gilliquet<br>
+        Suzan Stempher<br>
+        Alex Klein<br>
+        Yolan van der Horst<br>
+        Steven van Blijderveen<br>
+		</p>
+	</div>
+  </div>
+</div>
+
+</div>
+
+</div> 
+ 
+</div>
+</div>
+</div>
+
+</div>
+
+
+            <!--Extra scripts-->
+    <a href="paasei.html"><div id="paasei"><div id="blokje"></div></div></a>
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script type='text/javascript'>
+        $(function() {
+            $(".draggable").draggable({
+                revert : function(event, ui) {
+					$(this).data("uiDraggable").originalPosition = {
+                        top : 0,
+                        left : 0
+                    };
+                    return !event;
+                }
+            });
+        });
+    </script>
+		
+	<script>
+	function editZindex(id) {
+		// Woeehoe eerste javascript ooit
+		// Increment z-index zodat panel boven andere panels hovert.
+		
+		var x = document.getElementById(id);
+		
+		editZindex.zIndex++;
+	
+		x.style.zIndex = editZindex.zIndex;  
+		
+		if ( document.selection ) {
+			document.selection.empty();
+		} else if ( window.getSelection ) {
+			window.getSelection().removeAllRanges();
+		} 
+		
+	}
+	editZindex.zIndex=0;
+	</script>
+		
+</body>
+</html>
+>>>>>>> ea48dc3b31aa8c6652852ca2b84dc82c9dd62f90
